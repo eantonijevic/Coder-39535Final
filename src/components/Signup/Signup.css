@@ -1,7 +1,7 @@
 .container {
     height: 100vh;
     width: 100%;
-    background-color: #4a4a4a;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -36,7 +36,7 @@
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
     padding: 15px 10px;
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     font-size: 16px;
     font-weight: 600;
@@ -44,7 +44,7 @@
 }
 
 .form h2 {
-    color: #fff;
+    color: black;
     position: relative;
     font-size: 24px;
     font-weight: 600;
@@ -61,7 +61,7 @@
     width: 50%;
     height: 4px;
     border-radius: 5px;
-    background: #fff;
+    background: black;
 }
 
 .form .inputfield {
@@ -80,23 +80,23 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 16px;
     letter-spacing: 1px;
-    color: #fff;
+    color: Black;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
 .form .inputfield input::placeholder {
-    color: #fff;
+    color: black;
     text-transform: capitalize;
 
 }
 
 .form .inputfield input:focus {
-    border-bottom: 4px solid#fff;
+    border-bottom: 4px black;
     background: transparent;
 }
 
 .form .inputfield input[type="submit"] {
-    color: rgb(255, 254, 254);
+    color: white;
     background: rgb(97, 97, 97);
     max-width: 100px;
     font-size: 14px;
@@ -107,12 +107,12 @@
 
 .forget {
     margin-top: 5px;
-    color: rgb(255, 255, 255);
+    color: black;
     font-size: 14px;
 }
 
 .forget .link {
-    color: rgb(255, 255, 255);
+    color: black;
     font-weight: 600;
     font-size: 12px;
     letter-spacing: 1px;

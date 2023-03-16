@@ -23,6 +23,8 @@ export const ItemDetailContainer = ()=>{
         getProducto();
     },[productId])
 
+    console.log(item)
+
     return(
         <div className="item-detail-container">
             <p style={{width:"100%", color: "white", fontSize:"40px"}}>Zona de Compras</p>

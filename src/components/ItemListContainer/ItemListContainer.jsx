@@ -11,18 +11,12 @@ export const ItemListContainer = ()=>{
 
     const [productos, setProductos] = useState([]);
 
-    const promesa = new Promise((resolve, reject)=>{
-        setTimeout(() => {
-            resolve(arregloProductos);
-        }, 2000);
-    })
-
     useEffect(()=>{
-        promesa.then(resultado=>{
+        arregloProductos().then(resultado=>{
             if(!tipoProducto){
                 setProductos(resultado)
             } else{
-                const nuevaLista = resultado.filter(item=>item.ProductCat === tipoProducto);
+                const nuevaLista = resultado.filter(item=>item.categoria === tipoProducto);
                 setProductos(nuevaLista)
             }
         })
