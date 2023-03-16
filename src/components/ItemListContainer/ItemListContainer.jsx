@@ -22,7 +22,7 @@ export const ItemListContainer = ()=>{
             if(!tipoProducto){
                 setProductos(resultado)
             } else{
-                const nuevaLista = resultado.filter(item=>item.categoria === tipoProducto);
+                const nuevaLista = resultado.filter(item=>item.ProductCat === tipoProducto);
                 setProductos(nuevaLista)
             }
         })

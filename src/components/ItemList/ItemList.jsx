@@ -8,11 +8,11 @@ export const ItemList = ({items})=>{
         <div className="estilos-listado">
             <div style={{width:"100%"}}>Lista de Productos</div>
             {
-                items.map(producto=>(
+                console.log(Array.from(items).map(producto=>(
                     // <Link key={producto.id} to={`/item/${producto.id}`}>
                         <Item key={producto.id} item={producto}/>
                     // </Link>
-                ))
+                )))
             }
         </div>
     )

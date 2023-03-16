@@ -20,7 +20,14 @@ export const Navbar = () =>{
                  to="/productos/philips">Philips</NavLink>
                        <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
                  to="/productos/dimmable">Dimmable</NavLink>
+                <div className="rightside">
+                <Link to='signup' className='navlinksup'>SIGN UP</Link>
+                <Link to='login' className='navlinksin'>LOGIN</Link>
+
+
+                </div>
             </div>
+
             <div>
                 <CartWidget/>
             </div>
